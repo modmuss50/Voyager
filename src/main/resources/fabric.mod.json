@@ -4,16 +4,20 @@
   "version": "${version}",
 
   "name": "Voyager",
-  "description": "Take a voyage into modern java versions. (Fixes a rare CME in StructureManager when using java 11+)",
+  "description": "Take a voyage into modern java versions. (Fixes (MC-149777) a rare in StructureManager when using a Java Runtime Environment of 11 or above)",
   "authors": [
     "modmuss50"
   ],
+  "contact": {
+    "homepage": "https://bugs.mojang.com/browse/MC-149777"
+  },
   "license": "WTFPL",
-  "environment": "*",
+  "environment": "client",
   "mixins": [
     "voyager.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.7.2"
+    "fabricloader": ">=0.7.2",
+    "minecraft": ["1.14", "1.14.1", "1.15", "1.15.1", "1.15.2", "1.16.1", "1.16.2"]
   }
 }
