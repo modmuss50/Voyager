@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Voyager",
-  "description": "Take a voyage into modern java versions. (Fixes (MC-149777) a rare in StructureManager when using a Java Runtime Environment of 11 or above)",
+  "description": "Take a voyage into modern java versions. (Fixes (MC-149777), a rare StructureManagerException when using a Java Runtime Environment of 11 or above)",
   "authors": [
     "modmuss50"
   ],
